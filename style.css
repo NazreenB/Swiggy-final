@@ -2,10 +2,19 @@
     margin: 0;
 }
 
+body{
+  padding-top: 80px;
+}
 .header{
     height: 80px;
     box-shadow: 0 10px 20px rgb(244, 239, 239);
-}
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1000;
+  }
 .logo{
     width: 48px;
     border-radius: 15px;
